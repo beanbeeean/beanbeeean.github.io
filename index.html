@@ -62,12 +62,12 @@
       <!-- ABOUT -->
       <section id="about" class="section">
         <div class="section-eyebrow">// About</div>
-        <h2 class="about-heading">
-          웹 개발 실무를 거쳐
-          <span class="accent">게임 클라이언트 개발자</span>로 전향했습니다.
-          사용자의 플레이 경험을 만드는
-          <span class="accent">게임 시스템 설계</span>를 좋아합니다.
-        </h2>
+        <h3 class="about-heading">
+          <span class="accent">게임 플레이 경험</span>을 만드는
+          <span class="accent">게임 클라이언트 개발자</span>입니다. <br />웹
+          개발 실무 경험을 바탕으로 <span class="accent">유지보수성</span> 과
+          <span class="accent">확장성</span>을 고려한 게임 시스템을 설계합니다.
+        </h3>
 
         <div class="about-grid">
           <div class="about-col">
@@ -78,8 +78,8 @@
           <div class="about-col">
             <p class="about-desc">
               유지보수성과 확장성을 고려한 구조를 만드는 것을 중요하게
-              생각합니다. <br />데이터 기반 설계와 시스템 간의 명확한 책임
-              분리를 통해, 오래 살아남는 코드를 지향합니다.
+              생각합니다. <br />데이터 중심 설계와 명확한 책임 분리를 바탕으로,
+              변화에 유연한 게임 시스템을 만드는 것을 지향합니다.
             </p>
           </div>
         </div>
@@ -200,42 +200,97 @@
 
         <div class="timeline">
           <div class="timeline-grid">
-            <div class="timeline-num">01</div>
-            <div class="timeline-item">
-              <span class="timeline-dot"></span>
-              <div class="timeline-role">Frontend Developer</div>
-              <div class="timeline-tags"><span class="tag">회사</span></div>
-              <p class="timeline-desc">
-                웹 서비스 프론트엔드 개발. 컴포넌트 기반 UI와 사용자 인터랙션
-                구현 경험.
-              </p>
-            </div>
+            <div class="timeline-group">Game Projects</div>
 
-            <div class="timeline-num">02</div>
+            <div class="timeline-num accent">01</div>
             <div class="timeline-item">
-              <span class="timeline-dot"></span>
-              <div class="timeline-role">AI Service Developer</div>
-              <div class="timeline-tags"><span class="tag">회사</span></div>
-              <p class="timeline-desc">
-                AI 기반 서비스 개발. 데이터 처리와 시스템 연동, 서비스 로직 설계
-                경험.
-              </p>
-            </div>
-
-            <div class="timeline-num accent">03</div>
-            <div class="timeline-item timeline-item--current">
               <span class="timeline-dot timeline-dot--current"></span>
               <div class="timeline-role" style="color: #fff">
-                Unity Game Client Developer
+                ARDA — 3D 액션 RPG
               </div>
               <div class="timeline-tags">
-                <span class="tag tag--accent">프로젝트</span>
-                <span class="tag tag--accent">교육</span>
+                <span class="tag tag--accent">2026.05.28 ~ 2026.06.26</span>
               </div>
-              <p class="timeline-desc timeline-desc--current">
-                Unity 게임 클라이언트 개발로 전향. 게임 시스템 설계와 구조
-                개선에 집중하며 ARDA · HARAI 프로젝트 진행.
-              </p>
+              <ul class="timeline-list">
+                <li>
+                  GameCore 기반 전역 아키텍처와 ScriptableObject 기반 RPG 시스템
+                  설계
+                </li>
+                <li>전투, 스킬, 로드아웃, 성장 시스템 및 UI 구현</li>
+              </ul>
+            </div>
+
+            <div class="timeline-num accent">02</div>
+            <div class="timeline-item">
+              <span class="timeline-dot timeline-dot--current"></span>
+              <div class="timeline-role" style="color: #fff">
+                HARAI — 2D 공포 서바이벌
+              </div>
+              <div class="timeline-tags">
+                <span class="tag tag--accent">2026.04.08 ~ 2026.04.26</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Light2D 기반 탐색·정화 시스템 및 핵심 게임플레이 구현</li>
+                <li>
+                  Object Pooling 기반 몬스터 스폰 최적화와 게임 시스템 개발
+                </li>
+              </ul>
+            </div>
+
+            <div class="timeline-group">Web / AI Projects</div>
+
+            <div class="timeline-num">03</div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-role">
+                Azure OpenAI 문서 관리 시스템 개선
+              </div>
+              <div class="timeline-tags">
+                <span class="tag">2025.07 ~ 2025.09</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Azure OpenAI 기반 Agentic AI 및 MCP 연동 기능 개발</li>
+                <li>문서 검색 정확도 향상과 출처 Viewer 기능 구현</li>
+              </ul>
+            </div>
+
+            <div class="timeline-num">04</div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-role">LG전자 문서 관리 시스템</div>
+              <div class="timeline-tags">
+                <span class="tag">2024.08 ~ 2024.12</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Vue.js 기반 AI 문서 검색·챗봇 인터페이스 개발</li>
+                <li>문서 검색 속도 개선 및 권한 관리 기능 구현</li>
+              </ul>
+            </div>
+
+            <div class="timeline-num">05</div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-role">LG전자 Mellerikat 홈페이지</div>
+              <div class="timeline-tags">
+                <span class="tag">2024.05 ~ 2024.08</span>
+              </div>
+              <ul class="timeline-list">
+                <li>React·Docusaurus 기반 제품 홈페이지 개발</li>
+                <li>반응형 UI 및 다국어(i18n) 지원 구현</li>
+              </ul>
+            </div>
+
+            <div class="timeline-num">06</div>
+            <div class="timeline-item timeline-item--current">
+              <span class="timeline-dot"></span>
+              <div class="timeline-role">LG전자 MLOps AI Advisor</div>
+              <div class="timeline-tags">
+                <span class="tag">2024.01 ~ 2024.08</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Vue3 기반 MLOps 관리 UI 및 데이터 관리 기능 개발</li>
+                <li>로그인·권한 관리와 Cypress 테스트 환경 구축</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -302,7 +357,7 @@
       <!-- CONTACT -->
       <section id="contact" class="section section--contact">
         <div class="section-eyebrow">// Contact</div>
-        <h2 class="contact-title">Let's Talk</h2>
+        <h3 class="contact-title">Contact</h3>
 
         <div class="contact-list">
           <a
@@ -318,8 +373,13 @@
             <span>Email</span
             ><span class="contact-sub">beanbeeean@gmail.com ↗</span>
           </a>
-          <a href="#" target="_blank" rel="noopener" class="contact-row">
-            <span>Notion</span><span class="contact-sub">링크 준비중 ↗</span>
+          <a
+            href="https://app.notion.com/p/beanbeeean/Game-Client-Developer-3925442a421480d88811fed5d5cb45dc?source=copy_link"
+            target="_blank"
+            rel="noopener"
+            class="contact-row"
+          >
+            <span>Notion</span><span class="contact-sub">Notion Link ↗</span>
           </a>
         </div>
 
@@ -1191,6 +1251,26 @@ GameCore.SoundManager?.PlaySkill(context.Sfx.clip, context.Sfx.volume, context.S
                   <div class="accordion-panel" data-panel="harai-light">
                     <div class="accordion-inner">
                       <div>
+                        <div class="field-label">Light Mode</div>
+                        <div class="media-frame media-frame--sm">
+                          <img
+                            class="media-frame-img"
+                            src="image/Harai/lightsystem.gif"
+                            alt="HARAI Light System GIF"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <div class="field-label">Purification</div>
+                        <div class="media-frame media-frame--sm">
+                          <img
+                            class="media-frame-img"
+                            src="image/Harai/purifysystem.gif"
+                            alt="HARAI Purification System GIF"
+                          />
+                        </div>
+                      </div>
+                      <div>
                         <div class="field-label">Why</div>
                         <p class="field-text">
                           빛을 단순 연출이 아닌 탐색·상호작용·리스크가 함께 얽힌
@@ -1249,26 +1329,6 @@ GameCore.SoundManager?.PlaySkill(context.Sfx.clip, context.Sfx.volume, context.S
                           메커닉으로 자리잡았고, 정화 행동에 리스크를 결합해
                           핵심 루프의 몰입도와 긴장감이 함께 향상됨.
                         </p>
-                      </div>
-                      <div>
-                        <div class="field-label">Light Mode GIF</div>
-                        <div class="media-frame media-frame--sm">
-                          <img
-                            class="media-frame-img"
-                            src="image/Harai/lightsystem.gif"
-                            alt="HARAI Light System GIF"
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <div class="field-label">Purification GIF</div>
-                        <div class="media-frame media-frame--sm">
-                          <img
-                            class="media-frame-img"
-                            src="image/Harai/purifysystem.gif"
-                            alt="HARAI Purification System GIF"
-                          />
-                        </div>
                       </div>
                     </div>
                   </div>
