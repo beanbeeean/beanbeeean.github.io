@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash('/c/Program Files/Google/Chrome/Application/chrome.exe' --headless=new --no-sandbox --enable-logging=stderr --window-size=1440,900 --screenshot=C:/Users/user/AppData/Local/Temp/claude/C--personal-portfolio-v2/92f1273c-09dc-42c5-9b10-e076330c2404/scratchpad/shots/about8.png http://localhost:8791/index.html?_scrollto=about)"
+    ]
+  }
+}
