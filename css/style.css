@@ -917,10 +917,14 @@ a {
   position: relative;
 }
 .bullet-list li::before {
-  content: "—";
+  content: "";
   position: absolute;
-  left: 0;
-  color: var(--accent);
+  left: 2px;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
 }
 
 .arch-flow {
