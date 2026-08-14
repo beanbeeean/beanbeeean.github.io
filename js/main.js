@@ -25,6 +25,18 @@
         { id: 'sec-retro', label: 'Retrospective' },
       ],
     },
+    witch: {
+      title: 'Witch Chronicle',
+      genre: '3D 방치형·턴제 RPG·시뮬레이션',
+      sections: [
+        { id: 'sec-overview', label: 'Overview' },
+        { id: 'sec-game', label: 'Game Overview' },
+        { id: 'sec-loop', label: 'Core Loop' },
+        { id: 'sec-systems', label: 'Key Systems' },
+        { id: 'sec-trouble', label: 'Trouble Shooting' },
+        { id: 'sec-retro', label: 'Retrospective' },
+      ],
+    },
   };
 
   const overlay = document.getElementById('modal-overlay');

@@ -155,20 +155,6 @@
                 stroke="#2997ff"
                 stroke-width="1.6"
               >
-                <rect x="2" y="7" width="20" height="10" rx="5"></rect>
-                <path d="M7 11v3M5.5 12.5h3M15 12h.01M18 14h.01"></path>
-              </svg>
-              <span>Input System</span>
-            </div>
-            <div class="skill-card">
-              <svg
-                width="26"
-                height="26"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#2997ff"
-                stroke-width="1.6"
-              >
                 <path d="M3 8l4-2 5 2 5-2 4 2v10l-4 2-5-2-5 2-4-2z"></path>
                 <path d="M7 6v10M12 8v10M17 6v10"></path>
               </svg>
@@ -189,6 +175,21 @@
               </svg>
               <span>NavMesh</span>
             </div>
+            <div class="skill-card">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#2997ff"
+                stroke-width="1.6"
+              >
+                <circle cx="4" cy="18" r="1.6" fill="#2997ff"></circle>
+                <circle cx="20" cy="6" r="1.6" fill="#2997ff"></circle>
+                <path d="M4 18C4 8 10 6 20 6"></path>
+              </svg>
+              <span>DOTween</span>
+            </div>
           </div>
         </div>
       </section>
@@ -206,6 +207,27 @@
             <div class="timeline-item">
               <span class="timeline-dot timeline-dot--current"></span>
               <div class="timeline-role" style="color: #fff">
+                Witch Chronicle — 3D 방치형·턴제 RPG
+              </div>
+              <div class="timeline-tags">
+                <span class="tag tag--accent">2026.06.29 ~ 2026.08.14</span>
+              </div>
+              <ul class="timeline-list">
+                <li>
+                  상점·인벤토리·장비·스탯·강화 및 전투 UI 등 Gameplay 시스템
+                  전반 개발
+                </li>
+                <li>
+                  마법진 드로잉·판정 시스템 구축과 리스트 렌더링·미니맵 최적화
+                  주도
+                </li>
+              </ul>
+            </div>
+
+            <div class="timeline-num accent">02</div>
+            <div class="timeline-item">
+              <span class="timeline-dot timeline-dot--current"></span>
+              <div class="timeline-role" style="color: #fff">
                 ARDA — 3D 액션 RPG
               </div>
               <div class="timeline-tags">
@@ -220,7 +242,7 @@
               </ul>
             </div>
 
-            <div class="timeline-num accent">02</div>
+            <div class="timeline-num accent">03</div>
             <div class="timeline-item">
               <span class="timeline-dot timeline-dot--current"></span>
               <div class="timeline-role" style="color: #fff">
@@ -239,7 +261,7 @@
 
             <div class="timeline-group">Web / AI Projects</div>
 
-            <div class="timeline-num">03</div>
+            <div class="timeline-num">04</div>
             <div class="timeline-item">
               <span class="timeline-dot"></span>
               <div class="timeline-role">
@@ -254,7 +276,7 @@
               </ul>
             </div>
 
-            <div class="timeline-num">04</div>
+            <div class="timeline-num">05</div>
             <div class="timeline-item">
               <span class="timeline-dot"></span>
               <div class="timeline-role">LG전자 문서 관리 시스템</div>
@@ -267,7 +289,7 @@
               </ul>
             </div>
 
-            <div class="timeline-num">05</div>
+            <div class="timeline-num">06</div>
             <div class="timeline-item">
               <span class="timeline-dot"></span>
               <div class="timeline-role">LG전자 Mellerikat 홈페이지</div>
@@ -280,7 +302,7 @@
               </ul>
             </div>
 
-            <div class="timeline-num">06</div>
+            <div class="timeline-num">07</div>
             <div class="timeline-item timeline-item--current">
               <span class="timeline-dot"></span>
               <div class="timeline-role">LG전자 MLOps AI Advisor</div>
@@ -307,6 +329,29 @@
         </div>
 
         <div class="project-grid">
+          <button class="project-card" data-project="witch">
+            <div class="project-thumb">
+              <img
+                class="project-thumb-img"
+                src="image/WitchChronicle/title.png"
+                alt="WitchChronicle 대표 이미지"
+              />
+              <span class="project-thumb-num">01</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <div class="project-title">Witch Chronicle</div>
+                <span class="project-view">View ↗</span>
+              </div>
+              <div class="project-genre">3D 방치형·턴제 RPG·시뮬레이션</div>
+              <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">5인 프로젝트</span>
+                <span class="tag">UI/UX · Gameplay</span>
+              </div>
+            </div>
+          </button>
+
           <button class="project-card" data-project="arda">
             <div class="project-thumb">
               <img
@@ -314,7 +359,7 @@
                 src="image/Arda/title.png"
                 alt="ARDA 대표 이미지"
               />
-              <span class="project-thumb-num">01</span>
+              <span class="project-thumb-num">02</span>
             </div>
             <div class="project-body">
               <div class="project-title-row">
@@ -337,7 +382,7 @@
                 src="image/Harai/title.png"
                 alt="HARAI 대표 이미지"
               />
-              <span class="project-thumb-num">02</span>
+              <span class="project-thumb-num">03</span>
             </div>
             <div class="project-body">
               <div class="project-title-row">
@@ -1527,6 +1572,1621 @@ GameCore.SoundManager?.PlaySkill(context.Sfx.clip, context.Sfx.volume, context.S
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+
+            <!-- ===== WITCH CHRONICLE CONTENT ===== -->
+            <div id="content-witch" class="modal-content" hidden>
+              <div
+                id="sec-overview-witch"
+                class="modal-section"
+                data-sec="sec-overview"
+              >
+                <div class="modal-eyebrow">Overview</div>
+                <h3 class="modal-h3">Witch Chronicle</h3>
+                <p class="modal-lead">
+                  루멘발트에서 시작되는 마녀들의 성장 기록. 거점 생활과 성장,
+                  랜덤 던전 탐험, 턴제 전투를 순환하는 3D 판타지 RPG입니다.
+                </p>
+
+                <div class="meta-grid">
+                  <div class="meta-cell">
+                    <div class="meta-label">장르</div>
+                    <div class="meta-value">3D 방치형·턴제 RPG·시뮬레이션</div>
+                  </div>
+                  <div class="meta-cell">
+                    <div class="meta-label">기간</div>
+                    <div class="meta-value">2026.06.29 ~ 2026.08.14</div>
+                  </div>
+                  <div class="meta-cell">
+                    <div class="meta-label">인원</div>
+                    <div class="meta-value">5인</div>
+                  </div>
+                  <div class="meta-cell">
+                    <div class="meta-label">역할</div>
+                    <div class="meta-value">UI/UX, Gameplay 개발</div>
+                  </div>
+                  <div class="meta-cell">
+                    <div class="meta-label">Engine</div>
+                    <div class="meta-value">Unity 6000.5.2f1</div>
+                  </div>
+                  <div class="meta-cell">
+                    <div class="meta-label">Language</div>
+                    <div class="meta-value">C#</div>
+                  </div>
+                </div>
+
+                <div class="media-label" style="margin-top: 24px">
+                  주요 기술
+                </div>
+                <div class="project-tags" style="margin-top: 10px">
+                  <span class="tag">DOTween</span>
+                  <span class="tag">URP</span>
+                  <span class="tag">UnityEngine.Pool</span>
+                </div>
+
+                <div class="modal-cta-row">
+                  <a
+                    href="https://github.com/Witch-Chronicle/WitchChronicle"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn-primary"
+                    >GitHub ↗</a
+                  >
+                </div>
+
+                <div class="media-block">
+                  <div class="media-label">담당 범위</div>
+                  <ul class="bullet-list">
+                    <li>상점, 인벤토리, 장비 장착, 스탯, 강화 시스템</li>
+                    <li>최대 4인 캐릭터의 장비·스탯·스킬 장착 UI</li>
+                    <li>스킬 장착, 스킬 가챠, 전투 UI</li>
+                    <li>메인 HUD, 던전 UI, Pause UI, Dialogue UI</li>
+                    <li>NPC World Space Canvas UI</li>
+                    <li>화면 스냅샷과 Blur를 활용한 공통 UI Background</li>
+                    <li>
+                      Loading Scene, Transition Panel, Additive Load 기반 씬
+                      전환
+                    </li>
+                    <li>전투 중 마법진 드로잉·판정 시스템</li>
+                    <li>마법진 패턴을 제작하는 Unity Editor Tool</li>
+                    <li>Depth-Normals 기반 Toon Outline과 URP Camera Stack</li>
+                    <li>인벤토리·상점·스킬 목록 렌더링 최적화</li>
+                    <li>던전 미니맵 텍스처 갱신 최적화</li>
+                  </ul>
+                </div>
+
+                <div class="media-block">
+                  <div class="media-label">Gameplay Video</div>
+                  <div class="media-frame">
+                    <iframe
+                      src="https://www.youtube.com/embed/V1lgvBmbrAM"
+                      title="WitchChronicle Gameplay Video"
+                      width="100%"
+                      height="100%"
+                      frameborder="0"
+                      allow="
+                        accelerometer;
+                        autoplay;
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                        web-share;
+                      "
+                      allowfullscreen
+                      loading="lazy"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <hr class="modal-hr" />
+
+              <div
+                id="sec-game-witch"
+                class="modal-section"
+                data-sec="sec-game"
+              >
+                <div class="modal-eyebrow">Game Overview</div>
+                <p class="modal-quote">
+                  "루멘발트에서 시작되는 마녀들의 성장 기록."
+                </p>
+                <p class="modal-body-text" style="margin-bottom: 26px">
+                  거점에서 채집·낚시·요리 같은 생활 콘텐츠를 즐기고, 퀘스트로
+                  새로운 마녀를 영입합니다. 장비·스탯·강화·스킬 가챠로 최대
+                  4명의 파티를 구성한 뒤 원하는 던전에 진입해, 여러 타입의 방이
+                  랜덤하게 배치되는 던전을 탐험합니다. 몬스터와 조우하면 별도의
+                  Battle Scene에서 턴제 전투가 시작되며, 필드에서 먼저
+                  공격했다면 선공 Phase를 얻고, 이후에는 캐릭터와 몬스터의 속도
+                  스탯을 비교해 행동 순서를 정합니다. 전투에서 승리하면 던전
+                  탐험을 이어가고, 패배하면 거점에서 부활하며, 귀환 포탈로 직접
+                  거점에 돌아갈 수도 있습니다.
+                </p>
+                <div class="media-label" style="margin-bottom: 14px">
+                  목표 플레이 경험
+                </div>
+                <ul class="bullet-list">
+                  <li>생활 콘텐츠와 수집 요소를 통해 편안한 성장 경험 제공</li>
+                  <li>랜덤한 방과 이벤트를 통해 반복 탐험의 단조로움 완화</li>
+                  <li>파티·장비·스킬 조합을 통한 성장 선택지 제공</li>
+                  <li>선공과 속도 스탯을 활용한 턴제 전투의 전략성 강화</li>
+                  <li>마법진을 직접 그리는 입력으로 전투 참여감과 손맛 제공</li>
+                  <li>
+                    파스텔 톤 UI와 툰 렌더링을 통해 밝은 고전 판타지 분위기 전달
+                  </li>
+                </ul>
+              </div>
+
+              <hr class="modal-hr" />
+
+              <div
+                id="sec-loop-witch"
+                class="modal-section"
+                data-sec="sec-loop"
+              >
+                <div class="modal-eyebrow">Core Loop</div>
+                <div class="media-frame media-frame--tight">
+                  <img
+                    class="media-frame-img"
+                    src="image/WitchChronicle/gameplay_flow.svg"
+                    alt="WitchChronicle Gameplay Flow 다이어그램"
+                  />
+                </div>
+                <div class="arch-flow" style="margin-bottom: 22px">
+                  <span class="arch-step">거점</span
+                  ><span class="arch-arrow">→</span>
+                  <span class="arch-step">성장</span
+                  ><span class="arch-arrow">→</span>
+                  <span class="arch-step">던전 탐험</span
+                  ><span class="arch-arrow">→</span>
+                  <span class="arch-step arch-step--accent">턴제 전투</span
+                  ><span class="arch-arrow">→</span>
+                  <span class="arch-step">결과 · 복귀</span>
+                </div>
+                <p class="modal-body-text" style="margin-bottom: 30px">
+                  결과·복귀 단계에서 얻은 보상으로 캐릭터를 재정비한 뒤 다시
+                  거점으로 돌아가 다음 모험을 준비하는 순환 구조로 설계했습니다.
+                </p>
+
+                <div style="display: flex; flex-direction: column; gap: 26px">
+                  <div>
+                    <div class="field-label">1. 거점</div>
+                    <ul class="bullet-list">
+                      <li>방치형 채집, 낚시, 요리 등 생활 콘텐츠 진행</li>
+                      <li>NPC와 대화해 퀘스트 수주</li>
+                      <li>퀘스트 진행을 통해 새로운 아군 캐릭터 영입</li>
+                      <li>상점, 강화, 스킬 가챠 등 성장 기능 이용</li>
+                      <li>원하는 던전을 선택해 탐험 시작</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="field-label">2. 성장과 파티 구성</div>
+                    <ul class="bullet-list">
+                      <li>캐릭터별 장비와 스탯 확인</li>
+                      <li>장비 강화와 캐릭터 능력치 성장</li>
+                      <li>가챠로 스킬을 획득하고 캐릭터별 스킬 슬롯 구성</li>
+                      <li>최대 4명의 캐릭터를 기준으로 파티 전투 준비</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="field-label">3. 던전 탐험</div>
+                    <ul class="bullet-list">
+                      <li>여러 타입의 방을 랜덤하게 배치하여 던전 생성</li>
+                      <li>함정, 버프·디버프, 상점, 보물상자 이벤트 발생</li>
+                      <li>몬스터와 조우한 뒤 공격하면 Battle Scene 진입</li>
+                      <li>플레이어가 먼저 공격했을 경우 선공 Phase 획득</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="field-label">4. 턴제 전투</div>
+                    <ul class="bullet-list">
+                      <li>선공 조건이 충족되면 선공 Phase부터 진행</li>
+                      <li>
+                        0 Phase부터 캐릭터와 몬스터의 속도 스탯을 비교해 턴 순서
+                        결정
+                      </li>
+                      <li>캐릭터에게 장착한 스킬을 사용해 전투 진행</li>
+                      <li>
+                        일부 스킬은 마법진을 직접 그리고 판정 결과에 따라 데미지
+                        배율 결정
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="field-label">5. 결과와 복귀</div>
+                    <ul class="bullet-list">
+                      <li>
+                        승리: 기존 던전 상태를 유지한 채 탐험 화면으로 복귀
+                      </li>
+                      <li>패배: 던전 탐험을 종료하고 거점에서 부활</li>
+                      <li>귀환 포탈: 플레이어가 원하는 시점에 거점으로 복귀</li>
+                      <li>
+                        획득한 보상을 바탕으로 캐릭터를 성장시킨 뒤 다음 탐험
+                        진행
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <hr class="modal-hr" />
+
+              <div
+                id="sec-systems-witch"
+                class="modal-section"
+                data-sec="sec-systems"
+              >
+                <div class="modal-eyebrow">Key Systems</div>
+
+                <div class="accordion">
+                  <button class="accordion-btn" data-acc="witch-magiccircle">
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">01</span
+                      ><span class="accordion-name"
+                        >마법진 드로잉 및 판정 시스템</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+
+                  <div class="accordion-panel" data-panel="witch-magiccircle">
+                    <div class="accordion-inner">
+                      <div class="media-frame media-frame--tight">
+                        <img
+                          class="media-frame-img"
+                          src="image/WitchChronicle/drawing.gif"
+                          alt="WitchChronicle 스킬 마법진 그리기"
+                        />
+                      </div>
+                      <div>
+                        <div class="field-label">Why</div>
+                        <p class="field-text">
+                          스킬 사용 시 정해진 마법진을 마우스로 직접 그리게
+                          하고, 정답 궤적과의 유사도에 따라 데미지 배율이
+                          달라지는 전투 미니게임을 구현했음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">구조 흐름</div>
+                        <div class="arch-flow">
+                          <span class="arch-step">궤적 데이터 제작</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >Editor Tool에서 JSON 추출</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >런타임 입력 수집·좌표 정규화</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step arch-step--accent"
+                            >$P Point-Cloud 유사도 판정</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">점수 → 데미지 배율 변환</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">결과 연출</span>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="field-label">데이터 포맷 통일</div>
+                        <p class="field-text">
+                          정답 궤적과 플레이어가 그린 궤적을 같은 데이터 구조로
+                          표현. 제작 도구와 런타임이 동일한 포맷을 공유하기
+                          때문에 별도의 변환 단계 없이 같은 판정 함수에 전달할
+                          수 있음. x/y는 그리기 영역 기준 0~1 정규화 좌표,
+                          strokeId는 몇 번째 획에 속하는지를 나타내며 여러 번
+                          펜을 떼야 하는 복수 스트로크 패턴을 지원.
+                        </p>
+                        <pre class="code-block" style="margin-top: 12px"><code>{
+  "skillName": "fire_triangle",
+  "strokeCount": 2,
+  "points": [
+    { "x": 0.1234, "y": 0.8765, "strokeId": 0 },
+    { "x": 0.2345, "y": 0.7654, "strokeId": 0 },
+    { "x": 0.5000, "y": 0.5000, "strokeId": 1 }
+  ]
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">
+                          입력 좌표와 표시 좌표 분리
+                        </div>
+                        <p class="field-text">
+                          판정에 사용하는 좌표(화면 픽셀 → ScreenToAreaLocal →
+                          0~1 정규화 좌표)와 화면에 선을 그리는
+                          좌표(AreaLocalToViewport → Camera.ViewportToWorldPoint
+                          → World 좌표)를 분리. 그리기 UI의 크기나 위치가
+                          변경되어도 판정 데이터는 항상 0~1 범위를 유지하므로,
+                          해상도나 UI 배치가 달라져도 같은 정답 템플릿을 사용할
+                          수 있음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">스트로크 입력 처리</div>
+                        <ul class="bullet-list">
+                          <li>
+                            그리기 영역 내부에 첫 유효 지점이 기록될 때만 새
+                            strokeId 생성
+                          </li>
+                          <li>
+                            최소 점 간격 0.005를 적용해 과도한 샘플링 방지
+                          </li>
+                          <li>
+                            마우스를 뗀 후 기본 0.45초 동안 추가 입력이 없으면
+                            판정 시작
+                          </li>
+                          <li>
+                            영역 밖에서 클릭했다 놓는 입력은 빈 스트로크로
+                            처리하지 않음
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">$P Point-Cloud 판정</div>
+                        <p class="field-text">
+                          같은 인덱스의 점을 단순 비교하면 그리는 속도와 시작점
+                          차이에 민감해지는 문제를 완화하기 위해, 궤적을 점들의
+                          집합으로 다루는 $P Point-Cloud 방식을 기반으로 구현.
+                        </p>
+                        <ul class="bullet-list" style="margin-top: 10px">
+                          <li>
+                            리샘플링 — 경로 길이 기준 64개 점으로 통일, 서로
+                            다른 strokeId 사이 구간은 거리 계산에서 제외
+                          </li>
+                          <li>
+                            정규화 — 중심점을 빼 위치 차이 제거, 바운딩 박스
+                            대각선 길이로 나눠 크기 차이 제거
+                          </li>
+                          <li>
+                            Greedy Cloud Matching — 각 점을 상대 궤적에서 아직
+                            사용하지 않은 가장 가까운 점과 매칭, 여러 시작
+                            인덱스 중 가장 작은 거리를 최종 거리로 선택
+                          </li>
+                          <li>
+                            점수 계산 — 가중 평균 거리를 최대 허용 거리로
+                            정규화한 값을 0~100점으로 변환
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">점수와 데미지 배율 연결</div>
+                        <p class="field-text">
+                          기본 임계값 70점을 데미지 1배의 기준으로 사용. 70점
+                          미만은 최소 배율에서 1배 사이, 70점 이상은 1배에서
+                          최대 배율 사이로 선형 보간.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>private float ScoreToMultiplier(float score)
+{
+    if (score &lt; _scoreThreshold)
+    {
+        float t = Mathf.InverseLerp(0f, _scoreThreshold, score);
+        return Mathf.Lerp(_minDamageMultiplier, 1f, t);
+    }
+
+    float highT = Mathf.InverseLerp(_scoreThreshold, 100f, score);
+    return Mathf.Lerp(1f, _maxDamageMultiplier, highT);
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">결과 연출</div>
+                        <ul class="bullet-list">
+                          <li>판정 결과 잠시 유지</li>
+                          <li>
+                            Header를 숨기고 타이머 색상을 결과 색으로 전환
+                          </li>
+                          <li>그린 방향을 따라 Outline이 나타나는 색 와이프</li>
+                          <li>라인 두께가 커졌다 돌아오는 펄스</li>
+                          <li>라인의 알파와 두께를 줄이는 페이드아웃</li>
+                          <li>최종 데미지 배율 카운트업</li>
+                          <li>결과 유지 후 전체 UI 페이드아웃</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <p class="field-text">
+                          DOTween과 코루틴을 조합해 각 연출 단계의 타이밍을
+                          독립적으로 조절할 수 있도록 구성, 판정 결과를 전투
+                          흐름 속에서 명확하게 전달할 수 있게 됨.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion">
+                  <button class="accordion-btn" data-acc="witch-editortool">
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">02</span
+                      ><span class="accordion-name"
+                        >스킬 패턴 제작용 Unity Editor Tool</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-panel" data-panel="witch-editortool">
+                    <div class="accordion-inner">
+                      <div class="media-frame media-frame--tight">
+                        <img
+                          class="media-frame-img"
+                          src="image/WitchChronicle/PatternEditorTool.gif"
+                          alt="WitchChronicle PatternEditorTool "
+                        />
+                      </div>
+                      <div class="media-frame media-frame--tight">
+                        <img
+                          class="media-frame-img"
+                          src="image/WitchChronicle/Tool_JSON.png"
+                          alt="WitchChronicle Tool로 생성된 JSON"
+                        />
+                      </div>
+                      <div>
+                        <div class="field-label">배경</div>
+                        <p class="field-text">
+                          초기에는 웹 페이지에서 직접 궤적을 그리는 도구와
+                          Python·OpenCV를 이용한 자동 윤곽선 추출 도구를
+                          병행했으나, 결과물을 Unity로 옮기는 과정에서 문제가
+                          있었음.
+                        </p>
+                        <ul class="bullet-list" style="margin-top: 10px">
+                          <li>
+                            웹 또는 Python 환경에서 작업한 뒤 JSON을 프로젝트로
+                            직접 이동해야 함
+                          </li>
+                          <li>
+                            팀원이 Python과 OpenCV 환경을 별도로 설치해야 함
+                          </li>
+                          <li>
+                            생성한 좌표가 실제 게임에서 어떻게 보이는지 즉시
+                            확인하기 어려움
+                          </li>
+                          <li>
+                            JSON 좌표와 기준 이미지가 서로 다른 위치에서 관리될
+                            가능성
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">개선 흐름</div>
+                        <div class="arch-flow">
+                          <span class="arch-step">이미지 불러오기</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >Editor Window 멀티 스트로크 그리기</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >시작점·끝점·궤적 미리보기</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >JSON·원본 이미지 동시 저장</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step arch-step--accent"
+                            >AssetDatabase.Refresh</span
+                          >
+                        </div>
+                      </div>
+                      <div>
+                        <div class="field-label">Code — 좌표 정규화</div>
+                        <p class="field-text">
+                          입력 좌표는 저장 시점이 아니라 입력되는 순간부터 0~1로
+                          정규화.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>private Vector2 ScreenToNormalized(Vector2 screenPosition, Rect canvasRect)
+{
+    return new Vector2(
+        Mathf.Clamp01(
+            (screenPosition.x - canvasRect.x) / canvasRect.width),
+        Mathf.Clamp01(
+            (screenPosition.y - canvasRect.y) / canvasRect.height));
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <ul class="bullet-list">
+                          <li>Unity 내부에서 패턴 제작 작업을 완결</li>
+                          <li>
+                            Python·OpenCV 설치 없이 팀원이 같은 도구 사용 가능
+                          </li>
+                          <li>정답 이미지와 좌표 파일의 연결 관계 보존</li>
+                          <li>
+                            제작 도구와 런타임 판정 시스템의 데이터 계약 통일
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion">
+                  <button class="accordion-btn" data-acc="witch-charselect">
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">03</span
+                      ><span class="accordion-name"
+                        >다중 캐릭터 선택 상태 관리</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-panel" data-panel="witch-charselect">
+                    <div class="accordion-inner">
+                      <div class="media-frame media-frame--tight">
+                        <img
+                          class="media-frame-img"
+                          src="image/WitchChronicle/Equip.gif"
+                          alt="WitchChronicle 장비 장착"
+                        />
+                      </div>
+                      <div class="media-frame media-frame--tight">
+                        <img
+                          class="media-frame-img"
+                          src="image/WitchChronicle/Stat.gif"
+                          alt="WitchChronicle 스탯"
+                        />
+                      </div>
+                      <div class="media-frame media-frame--tight">
+                        <img
+                          class="media-frame-img"
+                          src="image/WitchChronicle/SkillEquip.gif"
+                          alt="WitchChronicle 스킬 장착"
+                        />
+                      </div>
+                      <div>
+                        <div class="field-label">Problem</div>
+                        <p class="field-text">
+                          장비, 스탯, 스킬 장착 화면은 모두 현재 선택된 캐릭터를
+                          기준으로 데이터를 표시해야 함. 선택 상태를 화면별로
+                          관리하면 장비 화면에서 선택한 캐릭터와 스탯 화면에서
+                          표시되는 캐릭터가 서로 달라질 수 있고, 같은 선택
+                          상태를 사용하더라도 화면마다 요구하는 표현
+                          방식(슬라이드·페이드 탭, 밑줄 이동 탭,
+                          이전·현재·다음을 순환하는 캐러셀)은 서로 달랐음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">Solution</div>
+                        <p class="field-text">
+                          선택 상태를 CharacterSelectionManager에 중앙화하고,
+                          실제 게임 데이터와 UI 표현을 분리. 매니저는 장비나
+                          스탯 데이터를 직접 알지 않고, 각 화면이 선택 이벤트를
+                          구독한 뒤 자신의 데이터 계층에 연결.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>public sealed class CharacterSelectionManager : MonoBehaviour
+{
+    private CharacterType _selected;
+
+    public event Action&lt;CharacterType&gt; OnSelectionChanged;
+
+    public CharacterType GetSelected()
+    {
+        return _selected;
+    }
+
+    public void SetSelected(CharacterType character)
+    {
+        if (_selected == character)
+            return;
+
+        _selected = character;
+        OnSelectionChanged?.Invoke(character);
+    }
+
+    public void ResetToDefault()
+    {
+        SetSelected(CharacterType.Default);
+    }
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">세부 처리</div>
+                        <ul class="bullet-list">
+                          <li>
+                            최대 4개 고정 슬롯 중 현재 파티에 포함된 캐릭터만
+                            활성화
+                          </li>
+                          <li>
+                            최초 패널 진입 시 즉시 최종 상태를 표시하고 전환
+                            애니메이션 생략
+                          </li>
+                          <li>
+                            사용자가 선택을 변경한 이후부터 DOTween 애니메이션
+                            재생
+                          </li>
+                          <li>동일한 UI 이용 세션에서는 선택 상태 공유</li>
+                          <li>
+                            전체 기능 종료 시 기본 캐릭터로 초기화해 예측 가능한
+                            재진입 보장
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <ul class="bullet-list">
+                          <li>선택 상태와 게임 데이터, UI 표현의 책임 분리</li>
+                          <li>
+                            장비·스탯·스킬 장착 UI의 선택 상태 일관성 확보
+                          </li>
+                          <li>
+                            새로운 선택 UI를 추가해도 매니저 변경 없이 확장 가능
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion">
+                  <button
+                    class="accordion-btn"
+                    data-acc="witch-scenetransition"
+                  >
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">04</span
+                      ><span class="accordion-name"
+                        >씬 특성에 맞춘 전환 시스템</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div
+                    class="accordion-panel"
+                    data-panel="witch-scenetransition"
+                  >
+                    <div class="accordion-inner">
+                      <div class="media-frame media-frame--tight">
+                        <img
+                          class="media-frame-img"
+                          src="image/WitchChronicle/Loading.gif"
+                          alt="WitchChronicle Loading Scene"
+                        />
+                      </div>
+                      <div>
+                        <div class="field-label">Problem</div>
+                        <ul class="bullet-list">
+                          <li>
+                            Main과 Dungeon 사이의 씬 로딩 중 화면이 멈추거나
+                            끊겨 보임
+                          </li>
+                          <li>
+                            로딩 직후 Awake와 Start 초기화가 끝나기 전에 빈 UI가
+                            노출될 수 있음
+                          </li>
+                          <li>
+                            Battle Scene은 Dungeon과 캐릭터 오브젝트 구조가 달라
+                            일반 전환과 다른 처리 필요
+                          </li>
+                          <li>
+                            로딩 중 단축키 입력으로 아직 준비되지 않은 UI에
+                            접근할 가능성
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">전환 흐름</div>
+                        <div class="arch-flow">
+                          <span class="arch-step">Loading Scene 진입</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >대상 Scene 비동기 로드 (allowSceneActivation =
+                            false)</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >진행률 보간 · 진행바 100%</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">Transition Cover In</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">대상 Scene 활성화</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step arch-step--accent"
+                            >SceneReadySignal 대기</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">Transition Reveal Out</span>
+                        </div>
+                        <p class="field-text" style="margin-top: 12px">
+                          핵심은 로드 완료와 화면에 노출해도 되는 시점을 분리한
+                          것.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>private IEnumerator LoadSceneRoutine(SceneId sceneId)
+{
+    yield return SceneManager.LoadSceneAsync(SceneId.Loading);
+
+    AsyncOperation operation =
+        SceneManager.LoadSceneAsync(sceneId.ToString());
+
+    operation.allowSceneActivation = false;
+
+    while (operation.progress < 0.9f)
+    {
+        _loadingUI.SetTargetProgress(operation.progress / 0.9f);
+        yield return null;
+    }
+
+    _loadingUI.SetTargetProgress(1f);
+    yield return new WaitUntil(() => _loadingUI.IsDisplayComplete);
+
+    yield return _transition.CoverIn();
+
+    _sceneReady = false;
+    operation.allowSceneActivation = true;
+
+    yield return new WaitUntil(() => operation.isDone);
+    yield return WaitForSceneReadyOrTimeout();
+
+    yield return _transition.RevealOut();
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">
+                          Single Load와 Additive Load 분리
+                        </div>
+                        <ul class="bullet-list">
+                          <li>
+                            Title → Main: Loading Scene을 거치는 Single Load
+                          </li>
+                          <li>
+                            Main → Dungeon: Loading Scene을 거치는 Single Load
+                          </li>
+                          <li>
+                            Dungeon → Main: Loading Scene을 거치는 Single Load
+                          </li>
+                          <li>
+                            Dungeon → Battle: Dungeon을 유지한 상태에서 Battle을
+                            Additive Load
+                          </li>
+                          <li>
+                            Battle 승리: Battle만 Unload하고 기존 Dungeon으로
+                            복귀
+                          </li>
+                          <li>Battle 패배: Dungeon을 종료하고 Main으로 전환</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <p class="field-text">
+                          승리 시 Dungeon을 다시 로드하지 않기 때문에 탐험
+                          상태를 유지하고 불필요한 재생성 비용을 피할 수 있음.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion">
+                  <button class="accordion-btn" data-acc="witch-blurbg">
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">05</span
+                      ><span class="accordion-name"
+                        >공통 Blur Background UI</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-panel" data-panel="witch-blurbg">
+                    <div class="accordion-inner">
+                      <div>
+                        <div class="field-label">Why</div>
+                        <p class="field-text">
+                          상점, 인벤토리, 장비, 스탯, 강화와 같이 게임 화면 위에
+                          열리는 UI가 서로 다른 배경 처리를 구현하지 않도록,
+                          기능 UI가 열릴 때 현재 게임 화면을 스냅샷으로 저장하고
+                          Blur를 적용하는 공통 흐름으로 관리. 씬 어디서든
+                          <code>UIBackgroundBlurManager.Instance?.Show()</code
+                          >/<code>Hide()</code> 두 호출만으로 켜고 끌 수 있는
+                          단일 매니저(DontDestroyOnLoad)로 구현.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">흐름</div>
+                        <div class="arch-flow">
+                          <span class="arch-step">Show() 요청</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">Camera.main 탐색</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >QuestList · HUD · 파티 큐 · 록온 · 미니맵
+                            숨김</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">전용 카메라로 화면 캡처</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step arch-step--accent"
+                            >Horizontal / Vertical Gaussian Blur</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >Blur RawImage · DimBackground 표시</span
+                          >
+                        </div>
+                      </div>
+                      <div>
+                        <div class="field-label">
+                          요청 카운트 기반 Show / Hide
+                        </div>
+                        <p class="field-text">
+                          여러 UI가 동시에 Blur를 요청할 수 있기 때문에, 단순
+                          On/Off 플래그 대신 요청
+                          횟수(<code>_requestCount</code>)로 상태를 관리. 이미
+                          Blur가 켜져 있으면 다시 캡처하지 않고 요청 횟수만
+                          증가시키고, 모든 요청이 해제되어 카운트가 0이 될 때만
+                          실제로 Blur를 끄고 숨겼던 UI를 되돌림.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>public void Show()
+{
+    Camera sourceCamera = FindSourceCamera();
+    if (sourceCamera == null) return;
+
+    _requestCount++;
+
+    // 이미 Blur가 켜져 있다면 다시 캡처하지 않습니다.
+    if (_isVisible) return;
+
+    CaptureAndBlur(sourceCamera);
+    SetBlurVisible(true);
+}
+
+public void Hide()
+{
+    if (_requestCount <= 0)
+    {
+        _requestCount = 0;
+        return;
+    }
+
+    _requestCount--;
+    if (_requestCount > 0) return;
+
+    SetBlurVisible(false);
+}</code></pre>
+                        <p class="field-text" style="margin-top: 12px">
+                          씬 전환처럼 요청 횟수와 무관하게 즉시 꺼야 하는 경우를
+                          위해 <code>ForceHide()</code>를 별도로 제공하고,
+                          카메라 화면이 바뀐 상태에서 다시 캡처만 갱신하고 싶을
+                          때는 <code>Refresh()</code>를 사용.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">
+                          전용 카메라 캡처 + 2-Pass Gaussian Blur
+                        </div>
+                        <p class="field-text">
+                          현재 화면을 표시 중인 카메라를 그대로 쓰지 않고,
+                          비활성 상태로 대기하는 전용 캡처 카메라에 설정과
+                          Transform을 복사한 뒤 <code>targetTexture</code>를
+                          지정해 <code>Render()</code>를 한 번 직접 호출. 이렇게
+                          캡처한 원본을 Horizontal → Vertical 두 Pass로 구성된
+                          Blur Material에 반복 적용.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>private void CaptureAndBlur(Camera sourceCamera)
+{
+    CreateRenderTexturesIfNeeded();
+    CopyCameraSettings(sourceCamera);
+
+    _captureCamera.targetTexture = _captureTexture;
+    _captureCamera.Render();
+    _captureCamera.targetTexture = null;
+
+    Graphics.Blit(_captureTexture, _blurTextureA);
+
+    for (int i = 0; i < _iterations; i++)
+    {
+        float currentRadius = _blurRadius + i * 0.5f;
+        _blurMaterial.SetFloat(BlurRadiusId, currentRadius);
+
+        // Pass 0: Horizontal Blur
+        Graphics.Blit(_blurTextureA, _blurTextureB, _blurMaterial, 0);
+        // Pass 1: Vertical Blur
+        Graphics.Blit(_blurTextureB, _blurTextureA, _blurMaterial, 1);
+    }
+
+    _blurredBackground.texture = _blurTextureA;
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">성능 고려</div>
+                        <ul class="bullet-list">
+                          <li>
+                            Downsample 값으로 화면 해상도를 나눠 Blur용
+                            RenderTexture 크기를 축소해 처리 비용 절감
+                          </li>
+                          <li>
+                            화면 크기가 이전과 같으면
+                            CreateRenderTexturesIfNeeded()에서 기존
+                            RenderTexture를 그대로 재사용
+                          </li>
+                          <li>
+                            Blur 처리용 Texture는 depthBufferBits를 0으로 설정해
+                            불필요한 Depth Buffer 생성 방지
+                          </li>
+                          <li>
+                            OnDestroy 시 ReleaseRenderTextures()로 생성한
+                            RenderTexture를 모두 해제
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <p class="field-text">
+                          기능별 UI의 배경 처리 일관성을 유지하고, 플레이어의
+                          시선을 현재 조작해야 하는 정보에 집중시킴.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-end"></div>
+              </div>
+
+              <hr class="modal-hr" />
+
+              <div
+                id="sec-trouble-witch"
+                class="modal-section"
+                data-sec="sec-trouble"
+              >
+                <div class="modal-eyebrow">Trouble Shooting</div>
+
+                <div class="accordion">
+                  <button class="accordion-btn" data-acc="witch-minimap">
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">01</span
+                      ><span class="accordion-name"
+                        >던전 미니맵 갱신 시 프레임 끊김</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-panel" data-panel="witch-minimap">
+                    <div class="accordion-inner">
+                      <div>
+                        <div class="field-label">Problem</div>
+                        <p class="field-text">
+                          플레이어가 던전의 새로운 방 경계에 진입할 때마다
+                          프레임이 크게 떨어지고 화면이 순간적으로 끊김.
+                        </p>
+                        <div class="arch-flow" style="margin-top: 12px">
+                          <span class="arch-step"
+                            >RoomController.OnTriggerEnter</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step"
+                            >MinimapIconManager.RefreshRoom</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step">MinimapRenderer.Refresh</span
+                          ><span class="arch-arrow">→</span>
+                          <span class="arch-step arch-step--accent"
+                            >MinimapTextureBuilder.Build</span
+                          >
+                        </div>
+                        <div class="table-wrap" style="margin-top: 12px">
+                          <table class="data-table">
+                            <thead>
+                              <tr>
+                                <th>측정 항목</th>
+                                <th>개선 전</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>RoomController.OnTriggerEnter</td>
+                                <td>257.90ms</td>
+                              </tr>
+                              <tr>
+                                <td>전체 프레임 CPU</td>
+                                <td>273.60ms</td>
+                              </tr>
+                              <tr>
+                                <td>GC Allocated</td>
+                                <td>46.6MB</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="field-label">Cause</div>
+                        <div class="media-frame media-frame--tight">
+                          <img
+                            class="media-frame-img"
+                            src="image/WitchChronicle/Profiler_1.png"
+                            alt="WitchChronicle 개선 전"
+                          />
+                        </div>
+                        <p class="field-text">
+                          새로운 방을 발견할 때마다 던전의 바닥, 벽, 아이콘을
+                          포함한 미니맵 텍스처 전체를 처음부터 다시 생성. 또한
+                          SetPixel과 GetPixel을 픽셀 하나마다 호출하고 있어,
+                          실제 픽셀 연산량뿐 아니라 수천~수만 번의 API 호출
+                          오버헤드가 누적됨.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">
+                          1차 개선 — 바닥·벽 베이스 캐싱
+                        </div>
+                        <div class="media-frame media-frame--tight">
+                          <img
+                            class="media-frame-img"
+                            src="image/WitchChronicle/Profiler_2.png"
+                            alt="WitchChronicle 1차 개선 이후"
+                          />
+                        </div>
+                        <p class="field-text">
+                          던전 생성 이후 변하지 않는 바닥과 벽은 최초 한 번만
+                          생성. 이후 방을 발견할 때는 캐싱한 베이스를 재사용하고
+                          아이콘만 다시 그려, OnTriggerEnter 처리 시간이
+                          257.90ms에서 104.55ms로 감소.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">
+                          2차 개선 — 픽셀 API 호출 일괄 처리
+                        </div>
+
+                        <p class="field-text">
+                          픽셀마다 SetPixel을 호출하는 대신 전체 배열을 가져와
+                          인덱스로 수정한 뒤 한 번에 반영하고, 아이콘 텍스처의
+                          픽셀 배열도 캐싱.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>// Before
+for (int x = 0; x < pixelsPerTile; x++)
+{
+    for (int y = 0; y < pixelsPerTile; y++)
+    {
+        texture.SetPixel(startX + x, startY + y, color);
+    }
+}
+
+// After
+Color[] pixels = texture.GetPixels();
+
+for (int x = 0; x < pixelsPerTile; x++)
+{
+    for (int y = 0; y < pixelsPerTile; y++)
+    {
+        int index = (startY + y) * textureWidth + startX + x;
+        pixels[index] = color;
+    }
+}
+
+texture.SetPixels(pixels);</code></pre>
+
+                        <div class="media-frame media-frame--tight">
+                          <img
+                            class="media-frame-img"
+                            src="image/WitchChronicle/Profiler_3.png"
+                            alt="WitchChronicle 2차 개선 이후"
+                          />
+                        </div>
+                        <p class="field-text" style="margin-top: 12px">
+                          방 진입 처리는 39.77ms, 전체 프레임 CPU는 53.25ms까지
+                          감소했지만, GetPixels()가 매번 새로운 배열을
+                          반환하면서 GC Allocated가 90.1MB로 증가하는 새로운
+                          문제가 발견됨.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">
+                          3차 개선 — 베이스 픽셀 배열 캐싱
+                        </div>
+                        <p class="field-text">
+                          Refresh마다 발생하던 중복 GetPixels() 호출을 제거하고,
+                          최초 렌더링 시 베이스 픽셀을 저장한 뒤 갱신 시에는
+                          복제본만 사용.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <div class="table-wrap">
+                          <table class="data-table">
+                            <thead>
+                              <tr>
+                                <th>단계</th>
+                                <th>OnTriggerEnter</th>
+                                <th>프레임 CPU</th>
+                                <th>GC Allocated</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>개선 전</td>
+                                <td>257.90ms</td>
+                                <td>273.60ms</td>
+                                <td>46.6MB</td>
+                              </tr>
+                              <tr>
+                                <td>베이스 캐싱</td>
+                                <td>104.55ms</td>
+                                <td>118.34ms</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                <td>배열 처리·아이콘 캐싱</td>
+                                <td>39.77ms</td>
+                                <td>53.25ms</td>
+                                <td>90.1MB</td>
+                              </tr>
+                              <tr>
+                                <td>중복 GetPixels 제거</td>
+                                <td>-</td>
+                                <td>40ms대</td>
+                                <td>감소</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <p class="field-text" style="margin-top: 12px">
+                          최초 대비 CPU 처리 시간을 약 6배 이상 단축하고 방 진입
+                          시 체감 끊김을 제거. CPU 최적화 과정에서 증가한 GC
+                          할당을 다시 추적하고 추가 개선하며, 단일 수치만 보는
+                          대신 CPU와 GC를 함께 확인하는 Profiler 기반 개선
+                          경험을 얻음.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion">
+                  <button class="accordion-btn" data-acc="witch-poolinglimit">
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">02</span
+                      ><span class="accordion-name"
+                        >Object Pooling 이후에도 남은 UI 성능 문제</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-panel" data-panel="witch-poolinglimit">
+                    <div class="accordion-inner">
+                      <div>
+                        <div class="field-label">Problem</div>
+                        <p class="field-text">
+                          인벤토리, 상점, 스킬 장착 화면은 카테고리와 필터가
+                          변경될 때마다 목록 전체를 갱신해야 함. 초기 구현에서는
+                          갱신할 때 기존 슬롯을 모두 제거하고 데이터 개수만큼
+                          다시 생성했는데, 카테고리 전환마다
+                          Instantiate/Destroy가 반복되며 Awake와 컴포넌트
+                          초기화, UI Rebuild 비용이 발생하고 파괴된 오브젝트가
+                          가비지로 누적되어 GC 스파이크와 프레임 드랍으로
+                          이어짐.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>private void RefreshList(IReadOnlyList&lt;ItemData&gt; items)
+{
+    foreach (Transform child in _content)
+    {
+        Destroy(child.gameObject);
+    }
+
+    foreach (ItemData item in items)
+    {
+        ItemSlot slot = Instantiate(_slotPrefab, _content);
+        slot.Bind(item);
+    }
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">Cause</div>
+                        <p class="field-text">
+                          1차로 UnityEngine.Pool.ObjectPool&lt;T&gt;를 적용해
+                          슬롯을 제거하지 않고 재사용하도록 개선했지만,
+                          생성·파괴 비용과 GC 부담만 줄었을 뿐 데이터 전체만큼
+                          활성 오브젝트가 존재하는 문제는 해결되지 않음. 데이터
+                          300개 중 화면에 보이는 셀은 5~6개뿐인 상황에서도 실제
+                          활성 슬롯은 300개였고, 화면 밖 슬롯도 Layout과 Canvas
+                          Rebuild 계산에 포함되어 목록 규모가 커질수록 비용이
+                          증가.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">Solution</div>
+                        <div class="media-frame media-frame--tight">
+                          <img
+                            class="media-frame-img"
+                            src="image/WitchChronicle/InfiniteScroll.gif"
+                            alt="WitchChronicle Infinite Scroll"
+                          />
+                        </div>
+                        <p class="field-text">
+                          최적화 목표를 생성 비용에서 활성 오브젝트 수 제한으로
+                          바꿔, 뷰포트에 실제로 보이는 셀과 여유 버퍼만 생성하고
+                          스크롤 위치에 따라 셀의 위치와 데이터만 교체하는
+                          Recycled Scroll View(Pooling + Infinite Scroll)를
+                          구현. Content는 가상 크기만 유지하고, 재사용되는 셀에
+                          선택 상태를 저장하면 스크롤 후 다른 데이터를 표시할 때
+                          잘못된 선택 표시가 남을 수 있어 선택 상태는 셀이 아닌
+                          실제 데이터로 추적.
+                        </p>
+                        <pre
+                          class="code-block"
+                          style="margin-top: 12px"
+                        ><code>int visibleRows = Mathf.CeilToInt(viewportHeight / rowStride) + 1;
+int neededRows = visibleRows + _bufferRows;
+int poolSize = neededRows * _columnCount;
+
+private void HandleScroll(Vector2 normalizedPosition)
+{
+    float scrolledY = _content.anchoredPosition.y;
+    int firstRow = Mathf.FloorToInt(
+        (scrolledY - _padding.top) / _rowStride);
+
+    int firstIndex = Mathf.Max(0, firstRow * _columnCount);
+
+    if (firstIndex == _firstVisibleIndex)
+        return;
+
+    _firstVisibleIndex = firstIndex;
+
+    for (int slotIndex = 0; slotIndex < _pool.Count; slotIndex++)
+    {
+        int dataIndex = firstIndex + slotIndex;
+        RebindCell(slotIndex, dataIndex);
+    }
+}</code></pre>
+                      </div>
+                      <div>
+                        <div class="field-label">단계별 개선 결과</div>
+                        <div class="table-wrap">
+                          <table class="data-table">
+                            <thead>
+                              <tr>
+                                <th>구분</th>
+                                <th>Instantiate / Destroy</th>
+                                <th>Object Pooling</th>
+                                <th>Pooling + Infinite Scroll</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>생성·파괴 비용</td>
+                                <td>갱신마다 발생</td>
+                                <td>최초 생성 이후 제거</td>
+                                <td>최초 생성 이후 제거</td>
+                              </tr>
+                              <tr>
+                                <td>활성 슬롯 수</td>
+                                <td>전체 데이터 수</td>
+                                <td>전체 데이터 수</td>
+                                <td>뷰포트 + 버퍼 수</td>
+                              </tr>
+                              <tr>
+                                <td>GC 부담</td>
+                                <td>높음</td>
+                                <td>감소</td>
+                                <td>감소</td>
+                              </tr>
+                              <tr>
+                                <td>대규모 데이터 확장성</td>
+                                <td>낮음</td>
+                                <td>제한적</td>
+                                <td>높음</td>
+                              </tr>
+                              <tr>
+                                <td>공통화</td>
+                                <td>화면별 구현</td>
+                                <td>화면별 Pool</td>
+                                <td>제네릭 공통 구조</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <p class="field-text">
+                          Object Pooling을 최종 해결책으로 보지 않고 남아 있는
+                          병목을 다시 분석해 Pooling + Infinite Scroll로 확장.
+                          데이터가 300개 또는 3,000개로 증가해도 실제 활성 UI
+                          오브젝트 수는 뷰포트에 필요한 범위로 제한되어,
+                          오브젝트 생성 비용을 줄이는 수준을 넘어 데이터 규모에
+                          따른 UI 연산 비용 증가 자체를 억제.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion">
+                  <button class="accordion-btn" data-acc="witch-toonoutlineui">
+                    <span class="accordion-label"
+                      ><span class="accordion-idx">03</span
+                      ><span class="accordion-name"
+                        >Toon Outline이 UI에 적용되는 문제</span
+                      ></span
+                    >
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-panel" data-panel="witch-toonoutlineui">
+                    <div class="accordion-inner">
+                      <div>
+                        <div class="field-label">Problem</div>
+                        <p class="field-text">
+                          오브젝트마다 메시를 확장해 외곽선을 그리는 대신,
+                          카메라의 Depth·Normal 텍스처에서 불연속 경계를
+                          검출하는 풀스크린 Outline 방식을 채택. 오브젝트 수마다
+                          Outline 패스를 추가하지 않고 화면 전체를 한 번에
+                          처리할 수 있었지만, Depth-Normals 기반 Outline이
+                          카메라 화면 전체를 처리하면서 NPC World Space Canvas와
+                          Screen Space-Camera UI에도 외곽선이 함께 적용됨. UI
+                          주변에 불필요한 선이 생겨 판타지 스타일의 시각적
+                          일관성과 정보 가독성이 저하됨.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">Cause</div>
+                        <p class="field-text">
+                          풀스크린 Outline 방식이 3D 오브젝트와 UI를 구분하지
+                          않고 화면 전체를 대상으로 동작하는 구조였기 때문에,
+                          World Space Canvas와 Screen Space-Camera UI도 예외
+                          없이 Depth·Normal 경계 검출 대상에 포함됨.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="field-label">Solution</div>
+                        <div class="media-frame media-frame--tight">
+                          <img
+                            class="media-frame-img"
+                            src="image/WitchChronicle/MainCamera.png"
+                            alt="WitchChronicle MainCamera"
+                          />
+                        </div>
+                        <div class="media-frame media-frame--tight">
+                          <img
+                            class="media-frame-img"
+                            src="image/WitchChronicle/NonelineCamera.png"
+                            alt="WitchChronicle NonelineCamera"
+                          />
+                        </div>
+                        <ul class="bullet-list">
+                          <li>
+                            Outline을 처리하는 Main Camera(Base)와 UI를 처리하는
+                            Overlay Camera로 분리 — Main Camera는
+                            Character/Monster/Field 레이어를 렌더링하며 Outline
+                            Renderer Feature로 Depth-Normals Outline 처리
+                          </li>
+                          <li>
+                            Overlay Camera는 World Space UI/Camera Space UI
+                            레이어만 렌더링하는, Outline이 없는 Renderer를
+                            사용해 Main Camera Stack 위에 합성
+                          </li>
+                          <li>
+                            Main Camera의 Culling Mask에서 UI 레이어를 제외하고,
+                            Overlay Camera는 UI 레이어만 렌더링해 1차로 레이어
+                            분리
+                          </li>
+                          <li>
+                            Outline Renderer Feature의 Obstacle Mask로 적용
+                            대상을 2차로 한 번 더 제한
+                          </li>
+                          <li>Camera Stack으로 최종 화면 합성</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <div class="field-label">Result</div>
+                        <ul class="bullet-list">
+                          <li>
+                            개별 UI마다 셰이더 예외 처리를 추가하지 않고 문제
+                            해결
+                          </li>
+                          <li>UI Outline 오염 차단</li>
+                          <li>
+                            NPC 상호작용 UI와 록온 표시의 Outline 오염 제거
+                          </li>
+                          <li>
+                            렌더링 파이프라인 단계에서 3D 오브젝트와 UI 분리
+                          </li>
+                          <li>
+                            레이어 설정만으로 신규 UI를 동일한 구조에 편입
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-end"></div>
+              </div>
+
+              <hr class="modal-hr" />
+
+              <div
+                id="sec-retro-witch"
+                class="modal-section"
+                data-sec="sec-retro"
+              >
+                <div class="modal-eyebrow">Retrospective</div>
+                <div class="retro-grid">
+                  <div class="retro-card">
+                    <div class="retro-title">배운 점</div>
+                    <div class="retro-list">
+                      <div>
+                        <div class="retro-item-title">
+                          1. 최적화는 한 번의 변경이 아니라 측정과 재검증의
+                          반복이다
+                        </div>
+                        <p class="retro-text">
+                          배열 일괄 처리로 CPU 시간을 크게 줄였지만
+                          GetPixels()가 만드는 배열 때문에 GC Allocated가 오히려
+                          증가했음. 하나의 지표가 좋아졌다고 끝난 것이 아니라
+                          변경 후 CPU·GC· 프레임 시간을 다시 확인해야 한다는 점,
+                          그리고 Object Pooling만으로 부족했던 리스트 렌더링을
+                          Infinite Scroll까지 확장하며 문제의 범위를 단계적으로
+                          좁혀가는 경험을 얻음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          2. 상태, 데이터, 표현의 책임을 분리하면 UI 확장이
+                          쉬워진다
+                        </div>
+                        <p class="retro-text">
+                          캐릭터 선택 상태를 단일 매니저로 분리한 결과,
+                          장비·스탯·스킬 화면이 동일한 선택 상태를 공유할 수
+                          있었고 탭·선택선·캐러셀처럼 표현 방식이 달라도 상태
+                          관리 코드를 수정할 필요가 없었음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          3. 제작 도구와 런타임이 같은 데이터 계약을 가져야 한다
+                        </div>
+                        <p class="retro-text">
+                          마법진 제작 도구와 런타임 판정 시스템이
+                          x·y·strokeId라는 동일한 데이터 포맷을 공유하도록
+                          설계해, 도구에서 생성한 JSON을 별도 변환 없이 게임에서
+                          사용할 수 있었음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          4. 로드 완료와 사용자에게 보여줄 준비 완료는 다르다
+                        </div>
+                        <p class="retro-text">
+                          비동기 로드의 진행률만으로 전환을 끝내면 대상 씬의
+                          초기화 상태까지 보장할 수 없음. SceneReadySignal을
+                          도입하며 엔진의 로드 상태와 실제 플레이 준비 상태를
+                          별도의 개념으로 다뤄야 한다는 점을 배움.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          5. 후처리 효과는 코드 예외보다 렌더링 경계를 먼저
+                          설계해야 한다
+                        </div>
+                        <p class="retro-text">
+                          Outline 문제를 UI마다 예외 처리하지 않고 카메라와
+                          Renderer를 분리해 해결. 화면 전체를 처리하는 효과는
+                          개별 오브젝트를 조건문으로 제외하는 것보다, 효과가
+                          보는 렌더링 범위를 구조적으로 제한하는 방식이
+                          유지보수에 유리했음.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="retro-card">
+                    <div class="retro-title">개선하고 싶은 점</div>
+                    <div class="retro-list">
+                      <div>
+                        <div class="retro-item-title">
+                          1. UI 성능 개선 수치 보강
+                        </div>
+                        <p class="retro-text">
+                          미니맵은 Profiler 수치를 단계별로 기록했지만 Recycled
+                          Scroll View는 구조적 개선에 비해 정량적 비교가 부족함.
+                          데이터 100/300/1,000개 기준 프레임 CPU, 활성
+                          GameObject 수, Canvas Rebuild 시간, 카테고리 전환 시
+                          GC Allocated, 최초 Pool 구성 비용을 같은 조건에서
+                          측정하고 싶음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          2. Recycled Scroll View의 범용성 확대
+                        </div>
+                        <p class="retro-text">
+                          현재는 세로 방향 N열 목록 기준. 가변 높이 셀, 수평
+                          스크롤, 셀 크기가 다른 목록, 섹션 Header와 그룹 목록,
+                          비동기 이미지 로딩과 취소 처리, 빠른 스크롤 시
+                          프리패치 범위 동적 조절을 공통 컴포넌트에 추가하고
+                          싶음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          3. 파티 슬롯 가시성 로직 공통화
+                        </div>
+                        <p class="retro-text">
+                          현재 파티에 포함된 슬롯만 활성화하는 코드가 캐릭터
+                          선택 UI 여러 곳에서 유사하게 반복됨. 공통 헬퍼 또는
+                          베이스 컴포넌트로 분리하면 중복을 줄이고 파티 구성
+                          정책 변경 시 수정 지점을 단일화할 수 있음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          4. 마법진 판정 검증 자동화
+                        </div>
+                        <p class="retro-text">
+                          패턴별 정상 입력, 회전 입력, 크기 차이, 역방향 입력,
+                          불완전한 입력 데이터를 준비하고 자동 테스트를 구성하고
+                          싶음. 패턴별 기대 점수 범위, 입력 샘플 수 변화에 대한
+                          안정성, 임계값·데미지 배율 밸런스, 멀티 스트로크 순서
+                          변경, 잘못된 JSON·빈 입력 예외 처리를 테스트해 판정
+                          파라미터 추가 시 기존 스킬의 회귀 문제를 방지하고
+                          싶음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">
+                          5. Scene Ready 조건의 명시화
+                        </div>
+                        <p class="retro-text">
+                          현재는 일정 프레임을 기다린 뒤 준비 신호를 보내는
+                          방식. 프로젝트 규모가 커지면 Player 준비, Camera 준비,
+                          Core UI 준비, Dungeon Data 준비 등 실제 준비 작업을
+                          비동기 Task 또는 등록형 Ready Handle로 명시적으로
+                          수집해, 어떤 시스템 때문에 전환이 지연되는지 추적하기
+                          쉬운 구조로 개선하고 싶음.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="retro-item-title">6. 렌더링 비용 검증</div>
+                        <p class="retro-text">
+                          Camera Stack으로 UI Outline 문제를 구조적으로
+                          해결했지만 Overlay Camera가 추가 렌더링 패스를
+                          발생시키는 만큼, 저사양 환경에서 Main Camera 단독 대비
+                          Camera Stack의 GPU 비용, 해상도별 풀스크린 Outline
+                          비용, World Space UI 개수 증가에 따른 Overdraw, 모바일
+                          환경에서의 Depth·Normal Texture 비용을 검증하고 싶음.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="media-label" style="margin-top: 34px">Summary</div>
+                <p class="modal-body-text" style="margin: 10px 0 16px">
+                  Witch Chronicle에서는 UI·UX 구현에 머무르지 않고, 상태 관리,
+                  데이터 파이프라인, 제작 도구, 씬 전환, 렌더링 구조와 성능
+                  최적화까지 게임 클라이언트 전반을 담당했습니다.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    제작 도구부터 런타임 판정까지 연결된 마법진 입력 시스템 구축
+                  </li>
+                  <li>
+                    최대 4인 캐릭터의 선택 상태와 UI 표현을 분리한 확장형 UI
+                    구조 설계
+                  </li>
+                  <li>
+                    Instantiate·Destroy에서 Object Pooling, Infinite Scroll까지
+                    단계적으로 개선한 리스트 렌더링
+                  </li>
+                  <li>
+                    Profiler를 기반으로 미니맵 CPU 시간을 약 6배 이상 단축
+                  </li>
+                  <li>로드 완료와 노출 가능 시점을 분리한 안정적인 씬 전환</li>
+                  <li>
+                    Camera Stack으로 Toon Outline과 UI 렌더링 영역을 구조적으로
+                    분리
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
