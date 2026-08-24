@@ -562,7 +562,8 @@ a {
   all: unset;
   cursor: pointer;
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 960px 1fr;
+  height: 800px;
   gap: 48px;
   align-items: stretch;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -580,19 +581,20 @@ a {
 }
 .featured-media {
   position: relative;
-  min-height: 520px;
+  height: 100%;
   background: #16161a;
 }
 .featured-media .project-thumb-img,
 .featured-media .img-slot {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .featured-info {
   padding: 44px 44px 44px 0;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 .featured-meta {
   grid-template-columns: repeat(2, 1fr);
@@ -609,9 +611,10 @@ a {
 @media (max-width: 900px) {
   .featured-card {
     grid-template-columns: 1fr;
+    height: auto;
   }
   .featured-media {
-    min-height: 260px;
+    height: 280px;
   }
   .featured-info {
     padding: 30px 26px 34px;
